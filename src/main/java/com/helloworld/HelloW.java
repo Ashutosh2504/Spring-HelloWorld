@@ -11,7 +11,7 @@ public class HelloW {
 	
 	public static void main(String[] args) {
 
-		// loading the definitions from the given XML file
+		// loading the definitions from the given XML file okokokoko
 		ApplicationContext context = new ClassPathXmlApplicationContext("hellobean.xml");
 		HelloWorldBean service = (HelloWorldBean) context.getBean("helloWorldBean");
 		
